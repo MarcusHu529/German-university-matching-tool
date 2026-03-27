@@ -1,0 +1,19 @@
+{
+  "TUM_Informatics": {
+    "Total_ECTS_Required": 120,
+    "Categories": {
+      "Theoretical_Computer_Science": 14,
+      "Practical_Computer_Science": 14,
+      "Software_Engineering": 14,
+      "Mathematics_and_Statistics": 18
+    }
+  },
+  "RWTH_Aachen_Computer_Science": {
+    "Total_ECTS_Required": 120,
+    "Categories": {
+      "Applied_Computer_Science": 15,
+      "Computer_Engineering": 16,
+      "Mathematics": 18
+    }
+  }
+}
