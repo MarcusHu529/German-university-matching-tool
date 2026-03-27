@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     const { courses, targetSchool } = await req.json();
     
     const schoolReqs = requirements[targetSchool as keyof typeof requirements];
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
 
     const prompt = `
       You are an expert German university admission officer. 
